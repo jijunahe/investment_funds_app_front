@@ -126,7 +126,7 @@ const Layout = () => {
         try {
            
            
-            axios.post('${process.env.REACT_APP_API_URL}funds/subscribe/?fund_id='+idFondo+'&user_id='+user.id)
+            axios.post(`${process.env.REACT_APP_API_URL}funds/subscribe/?fund_id=${idFondo}&user_id=${user.id}`)
             .then(response => {
                 
                 handleShow(response.data.message);
@@ -152,7 +152,7 @@ const Layout = () => {
         try {
            
            
-            axios.post('${process.env.REACT_APP_API_URL}funds/unsubscribe/?fund_id='+idFondo+'&user_id='+user.id)
+            axios.post(`${process.env.REACT_APP_API_URL}funds/unsubscribe/?fund_id=${idFondo}&user_id=${user.id}`)
             .then(response => {
                 
                 handleShow(response.data.message);
