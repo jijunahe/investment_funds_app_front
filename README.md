@@ -31,7 +31,11 @@ Para configurar el proyecto localmente, sigue estos pasos:
 3. Instala las dependencias:
 
   npm install     ó      yarn install
+4. Verificar o crear .env en la raiz del proyecto  Agregar la siguiente variable:
 
+RUTA  investment_funds_app_front/.env
+
+REACT_APP_API_URL="http://localhost:8000/"
 
 ### Scripts Disponibles
 En el directorio del proyecto, puedes ejecutar los siguientes comandos:
