@@ -1,0 +1,2 @@
+# Omitir el directorio de caché de node_modules
+node_modules/.cache/
